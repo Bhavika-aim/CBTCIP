@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0f2f85; /* Light gray background */
+}
+
+#task-list, #completed-task-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #850f0f;
+    border-radius: 10px;
+    width: 40%;
+    display: inline-block;
+    background-color: #fff; /* White background for task lists */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add some depth with a box shadow */
+}
+
+#tasks, #completed-tasks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tasks li, #completed-tasks li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#tasks li:last-child, #completed-tasks li:last-child {
+    border-bottom: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+/* Add some color to the buttons */
+#add-task-btn {
+    background-color: #744caf; /* Green button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #5d8e3e; /* Darker green on hover */
+}
+
+h1, h2 {
+    color: #333333; /* Darker text color for headings */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
